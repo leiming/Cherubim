@@ -1,0 +1,38 @@
+title:            PoetCoder
+tagline:          Grouth && Metamorphosis
+description:      A blog about Web Design & Development.
+
+title: Poetcoder
+email: poetcoders@gmail.com
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "leiming.me"
+twitter_username: iristrice
+github_username:  leiming
+
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+
+# https://github.com/jekyll/jekyll-assets
+gems:
+  - jekyll-assets
+  - sass
+
+
+# sass:
+#   style: :compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+
+# Serving
+detach:  false
+port:    4005
+host:    127.0.0.1
+
