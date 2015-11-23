@@ -19,11 +19,10 @@ kramdown:
 
 # https://github.com/jekyll/jekyll-assets
 gems:
-  - jekyll-assets
-  - sass
+   - octopress-autoprefixer
 
-
-# sass:
+sass:
+   sass_dir: _sass
 #   style: :compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks

@@ -42,7 +42,17 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+/**
+ * a tag
+ */
+a, a:visited, a:active {
+  color: $color-link;
+}
 
+a:hover {
+  color: $color-link;
+  transition: all .25s ease-in-out;
+}
 
 /**
  * Images
@@ -51,8 +61,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
-
 
 /**
  * Figures
