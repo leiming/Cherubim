@@ -1,0 +1,22 @@
+%clearfix {
+  *zoom: 1;
+
+  &:after,
+  &:before {
+    content: "";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+    overflow: hidden;
+  }
+}
+
+//水平垂直居中
+%all-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

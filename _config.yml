@@ -2,13 +2,17 @@ title:            PoetCoder
 tagline:          Grouth && Metamorphosis
 description:      A blog about Web Design & Development.
 
-title: Poetcoder
 email: poetcoders@gmail.com
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "leiming.me"
 twitter_username: iristrice
 github_username:  leiming
+
+links:
+  - title: Github
+    url: https://github.com/leiming
+    external: true
 
 # Conversion
 markdown:    kramdown
