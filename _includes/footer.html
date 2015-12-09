@@ -1,7 +1,7 @@
 <footer class="site-footer">
 
-  <div class="container">
-    <div class="col-md-8">
+  <div class="wrapper">
+    <div class="footer-left">
       <p class="list-title">Recent Posts</p>
       <ul class="list-content">
         {% for post in site.posts | limit:3 %} <!-- for1 -->
@@ -14,14 +14,16 @@
       </ul>
     </div>
 
-
-    <!--<div class="col-md-4">-->
-      <!--<p class="list-title">Contact Me</p>-->
-      <!--<ul>-->
-
-      <!--</ul>-->
-    <!--</div>-->
+    <div class="footer-right">
+      <p class="list-title">Contact Me</p>
+      <ul class="list-content">
+        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
+        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">Twitter</a></li>
+        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">Facebook</a></li>
+      </ul>
+    </div>
   </div>
   <small class="text-center copyright">&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by
-    <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://leiming.me/about">LEIMING</a> theme.</small>
+    <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://leiming.me/about">LEIMING</a> theme.
+  </small>
 </footer>
