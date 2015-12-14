@@ -17,7 +17,7 @@ $site-prefix: 'site';
   font-size: 4rem;
   font-weight: 600;
   text-align: center;
-  font-family: $font-family-sans-serif;
+  font-family: $font-family-sans-serif sans-serif;
   letter-spacing: .1rem;
   text-shadow: 0.1rem .1rem .3rem #8B4513;
   color: $color-title;
@@ -32,7 +32,7 @@ $site-prefix: 'site';
   font-weight: bold;
   text-align: center;
   opacity: .8;
-  font-family: $font-family-sans-serif;
+  font-family: $font-family-sans-serif sans-serif;
   letter-spacing: .1rem;
   text-shadow: 0.1rem .1rem .3rem #8B4513;
   color: $color-title;
@@ -49,7 +49,7 @@ $site-prefix: 'site';
 
 
   .page-link {
-    font-family: $font-family-sans-serif;
+    font-family: $font-family-sans-serif sans-serif;
     font-size: 1.5rem;
     color: $color-title;
     display: block;

@@ -102,12 +102,10 @@ h1, h2, h3, h4, h5, h6 {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
+  font-family: "arkitalic", "Georgia Italic", "Georgia-Italic", "Georgia", STKaiti,
+  "AR PL UKai", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, "TW-Kai", cursive;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
-  font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic;
 
   > :last-child {
     margin-bottom: 0;

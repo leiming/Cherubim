@@ -2,43 +2,55 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit;
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1.5;
 
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+  @include media-query($on-laptop) {
+    font-size: 36px;
+  }
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+  font-size: 1.1rem;
+  font-family: $font-family-serif, $font-family-chinese, serif;
 
-    h2 {
-        font-size: 32px;
 
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-sans-serif, $font-family-chinese, sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
 
-    h3 {
-        font-size: 26px;
+  p, pre, img, ol, ul, table, dl, hr, blockquote {
+    line-height: 2;
+    margin-bottom: 1rem;
+  }
 
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
+  ul li {
+    list-style: none;
+    margin-left: 0.5rem;
+  }
 
-    h4 {
-        font-size: 20px;
+  ul li:before {
+    font-family: 'FontAwesome';
+    font-size: 1rem;
+    content: "\f101";
+    margin: 0 1.5rem 0 -2rem;
+    color: #00CED1;
+  }
 
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
+
+  ol li {
+    margin-left: -0.5rem;
+  }
+
+  ol li:before {
+    //margin: 0 1.5rem 0 -2rem;
+  }
+
 }
