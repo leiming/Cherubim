@@ -2,7 +2,16 @@
  * Posts
  */
 .post-header {
-  margin-bottom: $spacing-unit;
+  margin-bottom: 3rem;
+  text-align: center;
+  border-bottom: .1rem solid $color-light-grey;
+}
+
+.post-meta {
+  font-family: $font-family-sans-serif, sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 1rem 0;
 }
 
 .post-title {
@@ -33,14 +42,14 @@
 
   ul li {
     list-style: none;
-    margin-left: 0.5rem;
+    //margin-left: 0.5rem;
   }
 
   ul li:before {
     font-family: 'FontAwesome';
     font-size: 1rem;
     content: "\f101";
-    margin: 0 1.5rem 0 -2rem;
+    margin: 0 1rem 0 -1.5rem;
     color: #00CED1;
   }
 
